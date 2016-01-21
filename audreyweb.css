@@ -1,0 +1,26 @@
+body{
+	background-color: DarkKhaki;
+	font-family: monospace;
+}
+
+h1{
+	color: LemonChiffon;
+	margin-left: 20px;
+	background-image: url("https://scontent-ord1-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/1506583_10153294436072879_5112433253656311438_n.jpg?oh=69d8536be352fd56e86763ad20b7a9ec&oe=573BAB2B");
+	background-repeat: no-repeat;
+	background-size: 1000px;
+}
+
+h3{
+	color: DarkKhaki;
+	margin-left: 30px;
+	background-color: DarkOliveGreen;
+	background-size: 1000px 100px;
+}
+
+p{
+	color: DarkKhaki;
+	margin-left: 30px;
+	background-color: DarkOliveGreen; 
+	background-size: 1000px 100px;
+}
