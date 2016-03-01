@@ -1,26 +1,99 @@
-body{
-	background-color: DarkKhaki;
-	font-family: monospace;
+
+
+@font-face{
+	font-family: amaticSC;
+	src: url(fonts/amatic/AmaticSC-Regular.ttf);
 }
 
+@font-face{
+	font-family: josefinSansRegular;
+	src: url(fonts/josefin-sans/JosefinSans-Regular.ttf);
+}
+
+body{
+	background: #333333;
+}
+
+header{
+
+}
+ 
 h1{
-	color: LemonChiffon;
+	display: inline;
+	position: fixed;
+	color: #A1874E;
+
+	margin-top:-300px;
 	margin-left: 20px;
-	background-image: url("https://scontent-ord1-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/1506583_10153294436072879_5112433253656311438_n.jpg?oh=69d8536be352fd56e86763ad20b7a9ec&oe=573BAB2B");
-	background-repeat: no-repeat;
-	background-size: 1000px;
+	
+	padding-top: 20px;
+	padding-bottom: 0px;
+	padding-left: 100px;
+	padding-right: 0px;
+	
+	font: 150px amaticSC;
 }
 
 h3{
-	color: DarkKhaki;
-	margin-left: 30px;
-	background-color: DarkOliveGreen;
-	background-size: 1000px 100px;
+	color: #A1874E;
+	margin-left: 500px;
+	background-color: #530D0D;
+
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	font: 50px amaticSC;
 }
 
 p{
-	color: DarkKhaki;
-	margin-left: 30px;
-	background-color: DarkOliveGreen; 
-	background-size: 1000px 100px;
+	color: black;
+	margin-left: 500px;
+	
+	background-size: contain;
+	background-color: WhiteSmoke;
+	
+	padding: 30px;
+
+	font: 30px josefinSansRegular;
+}
+
+.navigation{
+
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	z-index: 4;
+
+	margin-left: 250px;
+	margin-bottom: 0px;
+
+	text-align: center;
+
+	color: #A1874E;
+	font: 50px amaticSC;
+}
+
+.button{
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+
+	margin-right: 20px;
+	margin-left: 40px;
+	
+	cursor: pointer;
+	text-align: center;
+	width: 100px;
+}
+
+.button:hover{
+	color: white;
+}
+
+.about{
+	margin-top: 300px;
+	position: relative;
+
 }
