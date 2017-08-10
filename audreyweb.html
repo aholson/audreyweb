@@ -1,20 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+
+    <!-- Bootstrap CDN -->        
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!--meta charset="utf-8"-->
+
+        <!-- sets width of page to follow screen-width of device, sets initial zoom level when page is first loaded-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Audrey Olson</title>
-    	<link rel="stylesheet" type="text/css" href="audreyweb.css">
+    	<link rel="stylesheet" type="text/css" href="style.css">
     </head>
     
+    <div class="container-fluid">
     <header>
        
-            <h1> Audrey </h1>
+        <h1> Audrey Olson </h1>
+        <div class="row">
             <ul class ="navigation">
-                <li class="button" id="button-bio"> Bio </li>
-                <li class="button" id="button-projects"> Projects </li> 
-                <li class="button" id="button-resume"> Resume </li>
-                <li class="button" id="button-contact"> Contact </li>
+            <div class="col-sm-3"> <li class="button" id="button-bio"> Bio </li> </div> 
+            <div class="col-sm-3"> <li class="button" id="button-projects"> Projects </li> </div> 
+            <div class="col-sm-3"> <li class="button" id="button-resume"> Resume </li> </div>
+            <div class="col-sm-3"> <li class="button" id="button-contact"> Contact </li> </div>
             </ul>
+        </div>
 
     </header>
     <body>
@@ -22,9 +40,10 @@
 		
 
         <div class="about">        
-        <h3> The Website </h3>
-		<p> Placeholder here. </p>
+        <h2> Hello there! </h2>
+		<p> <strong>My name is Audrey, </strong>and I'm an avid lover and aspiring implementer of innovative UI/UX design with a comparable zeal for music, filmography, and <a href="Notes.txt">the written word</a>. I define myself by the holistic approach I enjoy taking towards the things I build - each of my personal projects is tenderly hand-crafted with full stack familiarity. My perpetual goal as a software engineer (and onlooker into the curio cabinet of life) is the transparentization of any and all black boxes, technical or otherwise.  </p>
         </div>
 
     </body>
+</div>
 </html>

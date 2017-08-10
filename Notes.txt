@@ -1,0 +1,55 @@
+CONTENT_____________________________
+
+HOME
+[Hello there!]
+My name is Audrey, and I'm an avid lover and aspiring implementer of innovative UI/UX design with a comparable zeal for music, filmography, and the written word. I define myself by the holistic approach I enjoy taking towards the things I build - each of my personal projects is tenderly hand-crafted with full stack familiarity. My perpetual goal as a software engineer (and onlooker into the curio cabinet of life) is the transparentization of any and all black boxes, technical or otherwise. 
+
+PROJECTS
+
+RESUME (inline and downloadable)
+	skills and technologies
+
+TECH/DESIGN BLOG
+
+CONTACT
+
+
+COLORS______________________________
+
+
+RED:	#990000;
+
+v1.0
+GREY1:	#181818
+FONT1:	WHEAT
+FONT2:	#FFFF99
+
+audreymagazine.com
+GOLD:	#a1874e;
+DGREY:	#333333;
+GREY:	#373737;
+WHITE:	#fff;
+
+luxury
+REFLECTION RED:	#530D0D
+WHITE CHOCOLATE:#F5FFC0
+DARK CHOCOLATE:	#1A1202
+MILK CHOCOLATE:	#342A14
+
+afterglow
+CHERNOBYLS FEARS: #2D3035 (blackish)
+TIJOLO:		  #963F35
+VERM CINNABAR:	  #F6623E (orange)
+SUCKER:		  #F8A257
+VANILLA DAY:	  #F8D09C	
+
+betweentheclouds
+MORNING LIGHT:	#DEE1B6
+SOFT: 		#E1B866
+ORANGE CLOUDS:	#BD5532
+LOWLIGHT:	#373B44
+
+
+FONTS_____________________________
+
+AMATIC_SC: <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
